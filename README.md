@@ -1,5 +1,7 @@
 #Vendasta Client
 
+A simple (and incomplete) client for Vendasta's Reputation Intelligence API
+
 ##How to use:
 
 ```
@@ -22,11 +24,13 @@ result = v.accounts.search(loc_data)
 ## Available endpoints:
 
 ### /accounts/search/
-```v.accounts.search(...)```
+`v.accounts.search(...)`
 ### /accounts/create/
-```v.accounts.create(...)```
+`v.accounts.create(...)`
 ### /accounts/delete/
-```v.accounts.delete(...)```
+`v.accounts.delete(...)`
 
 ### /reviews/search/
-```v.reviews.search(...)```
+`v.reviews.search(...)`
+
+[Read the Vendasta API Docs](http://www.vendasta.com/documentation/reputation-intelligence)
